@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-center">Customer Record</h1>
+<br/>
+	
+		
+		<div class="card">
+		  <div class="card-body">
+		   	 <tr>
+					<p class="text-center fs-1">{{user_record.first_name}} {{user_record.last_name}} </p>
+					<br/>
+					<br/>
+					<p></p>{{user_record.email}}</p> <br/>
+					<p>{{user_record.phone}} </p><br/>
+					<p>{{user_record.state}}, {{user_record.city}} </p> <br/>
+					<p>{{user_record.address}} </p><br/>
+					<p>{{user_record.created_at}} </p><br/>
+					<p>{{user_record.id}}  </p><br/>
+					</tr>
+		  </div>
+		</div>
+						
+				
+	
+	
+
+
+
+
+
+{% endblock %}
