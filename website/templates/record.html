@@ -2,6 +2,8 @@
 
 {% block content %}
 
+<div class="col-md-6 offset-md-3">
+
 <h1 class="text-center">Customer Record</h1>
 <br/>
 	
@@ -20,5 +22,5 @@
 
 	    <a href="{% url 'delete_record' user_record.id %}" class="btn btn-danger">Delete</a>
 		  </div>
-		
+ </div>		
 {% endblock %}
